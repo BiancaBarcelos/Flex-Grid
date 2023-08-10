@@ -36,10 +36,18 @@ body {
     width: calc(25% - 20px);
     border-radius: 0 50px 20px 50px;
 }
-.container__texto2 p {
-    margin: 0;
-    text-align: center;
+.sessao__texto2 {
+    gap: 5px;
+    margin: 50px;
+    display: flex;
+    font-size: 20px;
     color: #F5EBE266;
+    align-items: center;
+    justify-content: center;
+}
+.sessao__texto2 img{
+    width: 40px;
+    filter: grayscale(100%) brightness(300%);
 }
 
 @media screen and (max-width: 768px) {
